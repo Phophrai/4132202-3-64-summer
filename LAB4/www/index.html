@@ -9,8 +9,8 @@
 <body>
     <div clas="row">
         <button id="btn_add">add</button>
-        <button id="bth_list">list</button>
-        <button id="bth_Profile">Profile</button>
+        <button id="btn_list">list</button>
+        <button id="btn_Profile">Profile</button>
     </div>
     <div class="row">
         <div id="div_content"></div>
@@ -28,7 +28,7 @@
       $("#div_content").load("./php/dt_user.php");
     });
   
-    $("#bth_Profile").click(function () {
+    $("#btn_Profile").click(function () {
       $("#div_content").load("./php/profile.php");
     });
     
